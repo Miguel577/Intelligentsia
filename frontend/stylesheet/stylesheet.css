@@ -10,6 +10,10 @@ a {
   transition: color 0.4s;
 }
 
+.routeBackground {
+  background-image: url("sampleBackground.jpg")
+}
+
 a:hover {
   color: #1976d2;
 }
