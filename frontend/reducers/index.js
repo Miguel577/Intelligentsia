@@ -1,4 +1,12 @@
-function rootReducer(state = {name: 'Horizons'}, action) {
+function rootReducer(state = {
+  name: 'Intellegensia',
+  errors: {},
+  user: {
+    email: '',
+    password: ''
+  },
+  children: {},
+}, action) {
     switch (action.type) {
         default:
             return state;
